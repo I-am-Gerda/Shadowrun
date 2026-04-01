@@ -137,6 +137,13 @@ h1, h2, h3, h4 {
     font-size: 17px;
 }
 
+#mainpage h2 {
+    margin: 0 10%;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+}
+
 #mainpage .img-inbetween {
     margin-bottom: 40px;
     margin-top: 60px;

@@ -1,0 +1,34 @@
+:root {
+    --main-color: rgb(57, 199, 81);
+    --bgdark-color: rgb(26, 39, 49);
+    --bgbright-color: rgb(38, 61, 66);
+    --max-width:1100px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*border: 1px solid black;*/
+}
+
+body {
+    background-color: rgb(18, 23, 36);
+    font-family: Electrolize;
+    color: ghostwhite;
+}
+
+.sin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+
+    margin: 10%;
+}
+
+.sin img {
+    width: 500px;
+}
