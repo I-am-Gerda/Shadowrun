@@ -1,5 +1,5 @@
 :root {
-    --main-color: rgb(187, 12, 35);
+    --main-color: rgb(12, 187, 27);
     --bgdark-color: rgb(18, 23, 36);
     --bgbright-color: rgb(38, 61, 66);
     --max-width:1400px;
@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--bgdark-color);
-    background-image: url("img/Website/Pattern.png");
+    background-image: url("/Shadowrun/img/Website/Pattern.png");
     background-size: 200px;
 
     font-family:Arial, Helvetica, sans-serif;
@@ -187,7 +187,7 @@ img {
     display: flex;
     text-align: center;
 
-    background-image: url("#img/Website/Dresden.png");
+    background-image: url("/Shadowrun/img/Website/Dresden.png");
     background-size:var(--max-width);
 }
 
