@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: brown;
+  z-index: 1000;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.header__inner {
+    width: 1200px;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {  
+    font-family: "Kumar One Outline", sans-serif;
+    font-size: 20px;
+    align-content: center;
+}
+
+.navigation {
+    display: flex;
+    width: fit-content;
+    align-content: center;
+    justify-items: center;
+}
+
+.navigation nav ul {
+    list-style-type: none; 
+}
+
+.navigation nav ul li {
+    display: inline;
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-right {
+    width: fit-content;
+    align-content: center;
+    cursor: pointer; 
+}

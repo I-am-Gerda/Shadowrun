@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+
+
+* {
+padding: 0;
+margin: 0;
+border: 1px solid black;
+}
+
+body {
+  color: ghostwhite;
+  font-family: Electrolize;
+  
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgb(26, 39, 49), rgb(38, 61, 66));
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1080px auto;
+  grid-template-rows: 100vh;
+}
+
+.mainpage {
+  min-width: 0; /*wichtig für Shrinking*/
+}
+
+@media (max-width: 1100px) {
+  .container{
+    grid-template-columns: 1fr;
+
+    .ad-left, .ad-right {
+        display: none;
+    }
+  }
+}

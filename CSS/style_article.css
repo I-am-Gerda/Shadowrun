@@ -1,0 +1,178 @@
+:root {
+    --main-color: rgb(57, 199, 81);
+    --bgdark-color: rgb(26, 39, 49);
+    --bgbright-color: rgb(38, 61, 66);
+    --max-width:1100px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*border: 1px solid black;*/
+}
+
+body {
+    background-color: rgb(18, 23, 36);
+    font-family: Electrolize;
+    color: ghostwhite;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: Anton, sans-serif;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: "Kumar One Outline", sans-serif;
+    font-size: 30px;
+}
+
+
+/* Utility      _________________________________________________ */
+.container {
+    max-width: var(--max-width);
+    margin: auto; /* ----- platziert container mittig*/
+}
+
+.content-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, var(--bgdark-color), var(--bgbright-color));
+
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.author {
+    display: flex;
+    margin: 40px 10%;
+    align-items: center;
+    justify-content:flex-start;
+
+    font-family: Anton;
+}
+
+.author img {
+    width: 100px;
+}
+
+.author div {
+    margin: 0 10px;
+}
+
+
+/* Navigation   _________________________________________________ */
+#main-nav {
+    background-color: var(--main-color);
+    position:sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#main-nav .container {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    align-items: center;
+}
+
+#main-nav .logo {
+    width: 40px;
+}
+
+#main-nav ul {
+    justify-self: center;
+    display: flex;
+}
+
+#main-nav ul li {
+    padding: 0 5px;
+    float: left;
+    cursor: pointer;
+}
+
+
+/* Head Line    _________________________________________________ */
+#headline {
+    z-index: 1;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#headline .container {
+    justify-content: center;
+}
+
+#headline h1 {
+    color: var(--main-color);
+    font-size: 50px;
+    background-color: var(--bgbright-color);
+    padding: 30px 0;
+}
+
+
+/* Main Page    _________________________________________________ */
+#mainpage {
+    z-index: 1;
+    display: block;
+}
+
+#mainpage .container {
+    align-content: center;
+}
+
+#mainpage p {
+    margin: 0 10%;
+    margin-bottom: 20px;
+
+    font-size: 17px;
+}
+
+#mainpage .img-inbetween {
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+/* Footer       _________________________________________________ */
+#footer {
+    z-index: 1;
+    display: block;
+    margin-top: 60px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+
+/* Sidebars       _________________________________________________ */
+#sidebar {
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    position: fixed;
+    top: 10px;
+}
+
+#sidebar .ad-container {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, var(--max-width)) 1fr;
+}
+
+#sidebar .ad {
+    min-width: 200px;
+}

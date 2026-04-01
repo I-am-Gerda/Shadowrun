@@ -1,0 +1,20 @@
+:root {
+    --main-color: rgb(57, 199, 81);
+    --bgdark-color: rgb(26, 39, 49);
+    --bgbright-color: rgb(38, 61, 66);
+    --max-width:1100px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*border: 1px solid black;*/
+}
+
+body {
+    background-color: rgb(18, 23, 36);
+    font-family: Electrolize;
+    color: ghostwhite;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Electrolize, sans-serif;
+    color: ghostwhite;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgb(26, 39, 49), rgb(38, 61, 66));
+}
+
+header {
+    height: 60px;
+    padding: 0 5%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(36, 120, 128);
+    height: 20px;
+    font-size: 12px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+h2, h3, p {
+    padding: 1% 1%;
+    margin: 10px;
+}
+
+h1{
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    color: rgb(57, 199, 81);
+    font-weight: 1000;
+    background-color: rgb(14, 28, 31);
+
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    text-align: center;
+}
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 100;
+
+    margin-top: 5%;
+}
+
+
+
+.header-logo {    
+    width: fit-content;
+    font-family: "Kumar One Outline", sans-serif;
+    font-size: 20px;
+}
+
+.header-nav {
+    width: fit-content;
+    align-content: center; 
+}
+
+.header-nav ul {
+    list-style-type: none; 
+}
+
+.header-nav ul li {
+    display: inline;
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-right {
+    width: fit-content;
+    align-content: center;
+    cursor: pointer; 
+}
