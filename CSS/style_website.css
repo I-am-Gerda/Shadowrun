@@ -230,7 +230,7 @@ p {
     text-align: center;
 
     background-color: var(--bgdark-color);
-    background-image: url("/img/Website/Dresden.png");
+    background-image: url("img/Website/Dresden.png");
     background-size:var(--max-width);
 }
 
