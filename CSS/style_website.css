@@ -16,7 +16,6 @@
 
 body {
     background-color: var(--bgdark-color);
-    background-image: url("/img/Website/Pattern.png");
     background-size: 200px;
 
     font-family:Arial, Helvetica, sans-serif;
