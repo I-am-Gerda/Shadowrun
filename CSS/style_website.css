@@ -127,6 +127,7 @@ p {
 
 #mainpage .title-image {
     position: absolute;
+    mask-image: linear-gradient(black 70%, transparent);
     width: 100%;
     max-width: var(--max-width);
     
