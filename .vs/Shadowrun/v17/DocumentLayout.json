@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\website.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:website.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\CSS\\style_article.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\style_article.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\article.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:article.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\CSS\\mobile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\mobile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "website.html",
+              "DocumentMoniker": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\website.html",
+              "RelativeDocumentMoniker": "website.html",
+              "ToolTip": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\website.html",
+              "RelativeToolTip": "website.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-02T10:39:57.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style_article.css",
+              "DocumentMoniker": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\CSS\\style_article.css",
+              "RelativeDocumentMoniker": "CSS\\style_article.css",
+              "ToolTip": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\CSS\\style_article.css",
+              "RelativeToolTip": "CSS\\style_article.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-02T10:37:21.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mobile.css",
+              "DocumentMoniker": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\CSS\\mobile.css",
+              "RelativeDocumentMoniker": "CSS\\mobile.css",
+              "ToolTip": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\CSS\\mobile.css",
+              "RelativeToolTip": "CSS\\mobile.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-02T10:37:15.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "article.html",
+              "DocumentMoniker": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\article.html",
+              "RelativeDocumentMoniker": "article.html",
+              "ToolTip": "C:\\Users\\gerda\\OneDrive\\Desktop\\Coding\\Shadowrun\\article.html",
+              "RelativeToolTip": "article.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-02T10:33:10.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
