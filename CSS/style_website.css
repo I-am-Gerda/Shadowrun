@@ -128,6 +128,9 @@ p {
 #mainpage .title-image {
     position: absolute;
     mask-image: linear-gradient(black 70%, transparent);
+    width: 100%;
+    max-width: var(--max-width);
+    
 }
 
 #mainpage .text-container {
@@ -185,7 +188,8 @@ p {
     gap: 5%;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    margin: 20px 200px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
 #mainpage .description img {
